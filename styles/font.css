@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "InterRomanLatin";
+  src: url("~/assets/inter-roman-latin.woff2") format("woff");
+}
+
+:root {
+  --font-family-base: "Inter", ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-mono: ui-monospace, "Menlo", "Monaco", "Consolas",
+    "Liberation Mono", "Courier New", monospace;
+  font-optical-sizing: auto;
+}
+
+html {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+body {
+  font-family: var(--font-family-base);
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  direction: ltr;
+  overflow-wrap: break-word;
+  text-rendering: optimizeLegibility;
+}
