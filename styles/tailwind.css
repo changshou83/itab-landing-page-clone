@@ -7,4 +7,22 @@
     --nav-h: 60px;
     --brand: #00a5f2;
   }
+  .swiper-slide-content-container {
+    @apply h-[100%] py-24 bg-cover bg-center bg-no-repeat;
+  }
+  .swiper-slide-content-title-container {
+    @apply: relative z-10 text-center;
+  }
+  .swiper-slide-content-title {
+    @apply relative inline-block font-[700] text-[rgb(37,54,71)];
+  }
+  .swiper-slide-content-title-heading {
+    @apply text-[54px] z-[1] relative;
+  }
+  .swiper-slide-content-title-em {
+    @apply absolute h-[14px] w-[100%] left-0 bottom-[8px] z-0;
+  }
+  .swiper-slide-content-subtitle {
+    @apply my-5;
+  }
 }
