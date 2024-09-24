@@ -20,12 +20,15 @@ export default defineNuxtConfig({
       ],
     },
   },
-  modules: ["@nuxtjs/tailwindcss", "nuxt-icons"],
+  modules: ["@nuxtjs/tailwindcss", "nuxt-icons", "~/modules/nuxt-swiper/index"],
   css: ["~/styles/tailwind.css", "~/styles/font.css", "~/styles/reset.css"],
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
     },
+  },
+  swiper: {
+    modules: ["pagination", "mousewheel"],
   },
 });
