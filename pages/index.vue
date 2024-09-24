@@ -1,8 +1,15 @@
 <template>
   <div>
     <AppHeader />
-    <slot />
-    <AppFooter />
+    <AppContent>
+      <SwiperSlide virtual-index="Banner"><ContentBanner /></SwiperSlide>
+      <SwiperSlide virtual-index="Widget"><ContentWidget /></SwiperSlide>
+      <SwiperSlide><ContentIcon /></SwiperSlide>
+      <SwiperSlide><ContentApp /></SwiperSlide>
+      <SwiperSlide><ContentSimple /></SwiperSlide>
+      <SwiperSlide><ContentVideo /></SwiperSlide>
+      <SwiperSlide><ContentMore /></SwiperSlide>
+    </AppContent>
   </div>
 </template>
 
