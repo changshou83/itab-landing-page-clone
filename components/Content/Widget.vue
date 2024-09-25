@@ -33,7 +33,7 @@
 </template>
 
 <script lang="ts" setup>
-import { useTitleAnimation } from "~/composables/titleAnimation";
+import { useRefAnimation } from "~/composables/refAnimation";
 
 function generateList() {
   const imgURL = (order: string) =>
@@ -52,9 +52,16 @@ function generateList() {
 const list = ref(generateList());
 // 添加动画
 const swiperSlideInstance = useSwiperSlide();
-const titleRef = useTemplateRef("Title");
-const subTitleRef = useTemplateRef("SubTitle");
-useTitleAnimation(swiperSlideInstance, { titleRef, subTitleRef });
+useRefAnimation(swiperSlideInstance, [
+  {
+    ref: useTemplateRef("Title"),
+    animation: { enter: "fadeInDown", leave: "fadeOutUp" },
+  },
+  {
+    ref: useTemplateRef("SubTitle"),
+    animation: { enter: "fadeInUp", leave: "fadeOutDown" },
+  },
+]);
 </script>
 
 <style scoped>
