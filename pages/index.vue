@@ -9,6 +9,7 @@
       <SwiperSlide><ContentSimple /></SwiperSlide>
       <SwiperSlide><ContentVideo /></SwiperSlide>
       <SwiperSlide><ContentMore /></SwiperSlide>
+      <SwiperSlide><ContentStart /></SwiperSlide>
     </AppContent>
   </div>
 </template>
