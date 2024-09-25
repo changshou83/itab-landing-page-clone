@@ -1,5 +1,5 @@
 <template>
-  <header class="left-0 z-30 lg:fixed lg:w-[100%] lg:top-0">
+  <header class="left-0 z-30 lg:fixed lg:w-[100%] lg:top-0 bg-white">
     <div
       class="shadow backdrop-blur-md border-b-[none] relative title-padding h-[--nav-h]"
     >
