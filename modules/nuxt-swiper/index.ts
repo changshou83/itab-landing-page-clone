@@ -71,7 +71,6 @@ function getCSSImports({ styleLang, modules }: ModuleOptions) {
 function addSwiperImports(options: ModuleOptions) {
   // Add Composables imports from `swiper/vue`.
   const moduleImports = getModuleImports(options);
-  console.log({ moduleImports });
   addImports(moduleImports);
   function getModuleImports(options: ModuleOptions) {
     const { prefix, modules } = options;
