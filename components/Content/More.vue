@@ -88,13 +88,13 @@ li {
   padding: 30px;
 }
 
-p {
+li p {
   margin: 10px 0 20px 0;
   color: #606060;
   font-size: 13px;
 }
 
-h2 {
+li h2 {
   color: white;
   font-size: 20px;
   font-weight: 700;
