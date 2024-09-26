@@ -20,19 +20,19 @@
       </p>
     </div>
     <div
-      class="bg-contain bg-no-repeat bg-center relative p-[30px] z-[2] h-[650px]"
+      class="bg-contain bg-no-repeat bg-center relative p-[30px] z-[2] h-[66vh]"
       style="
         background-image: url(https://files.codelife.cc/itab.link/video-border.png);
       "
     >
       <img
-        class="inline-block h-[100%] object-contain relative top-[16px]"
+        class="inline-block h-[100%] object-contain relative top-4"
         style="width: calc(100% - 20px)"
         src="https://files.codelife.cc/itab.link/video-border-icon.png"
         alt=""
       />
       <img
-        class="absolute left-[50%] top-[59%] h-[60%] object-contain"
+        class="absolute left-[50%] top-[59%] h-[59%] object-contain"
         style="
           transform: translate(-50%, -50%);
           box-shadow: 0 12px 32px #000000b3;

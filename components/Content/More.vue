@@ -11,12 +11,12 @@
         一键翻译，多端同步，书签导入，自定义搜索等功能让浏览器桌面更好用
       </p>
     </div>
-    <ul ref="List" class="max-w-[1000px] mt-[50px] mx-auto my-0">
+    <ul ref="List" class="max-w-[51%] mt-[50px] mx-auto my-0">
       <li class="text-left">
         <h2>快速翻译</h2>
         <p>搜索栏内快速搜素入口，翻译，它很快...</p>
         <img
-          class="h-[110px]"
+          class="h-28"
           src="https://files.codelife.cc/itab.link/more-search.png"
           alt="快速翻译"
         />
@@ -28,7 +28,7 @@
           <p class="scale-90" style="margin-top: 100px">*仅支持插件版</p>
         </div>
         <img
-          class="h-[220px]"
+          class="h-48"
           src="https://files.codelife.cc/itab.link/more-add.png"
           alt="快速添加"
         />
@@ -39,7 +39,7 @@
           <p>轻松切换，4K也OK</p>
         </div>
         <img
-          class="h-[220px]"
+          class="h-48"
           src="https://files.codelife.cc/itab.link/more-wall.png"
           alt="丰富壁纸"
         />
@@ -48,6 +48,7 @@
         <h2>跨平台</h2>
         <p>一个账号，多端同步</p>
         <img
+          class="h-28"
           src="https://files.codelife.cc/itab.link/more-os.png"
           alt="丰富壁纸"
         />
@@ -80,23 +81,23 @@ useRefAnimation(swiperSlideInstance, [
 <style scoped>
 li {
   width: 48%;
-  height: 260px;
+  height: 16rem;
   margin: 1%;
   float: left;
   background-color: #1e1e1e;
   border-radius: 16px;
-  padding: 30px;
+  padding: 2rem;
 }
 
 li p {
   margin: 10px 0 20px 0;
   color: #606060;
-  font-size: 13px;
+  font-size: 0.8rem;
 }
 
 li h2 {
   color: white;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
 }
 </style>

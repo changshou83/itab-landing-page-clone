@@ -25,7 +25,7 @@
     </div>
     <img
       src="https://files.codelife.cc/itab.link/miniapp.webp"
-      class="block z-[1] relative px-[100px]"
+      class="block z-[1] relative px-24"
     />
   </div>
 </template>

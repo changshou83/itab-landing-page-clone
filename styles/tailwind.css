@@ -17,10 +17,10 @@
     @apply relative inline-block font-[700] text-[rgb(37,54,71)];
   }
   .swiper-slide-content-title-heading {
-    @apply text-[54px] z-[1] relative;
+    @apply text-6xl z-[1] relative;
   }
   .swiper-slide-content-title-em {
-    @apply absolute h-[14px] w-[100%] left-0 bottom-[8px] z-0;
+    @apply absolute h-[14px] w-[100%] left-0 -bottom-1 z-0;
   }
   .swiper-slide-content-subtitle {
     @apply my-5;

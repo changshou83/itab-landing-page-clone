@@ -14,7 +14,7 @@
         既是新标签页也是收藏夹。你可以收藏并自定义常用网站的图标样式，美化桌面，快捷访问
       </p>
     </div>
-    <div ref="Image" class="max-w-[1300px] mx-auto mt-[100px] text-center">
+    <div ref="Image" class="max-w-[70vw] mx-auto mt-[100px] text-center">
       <img
         class="block mb-[50px]"
         src="https://files.codelife.cc/itab.link/icon.png"

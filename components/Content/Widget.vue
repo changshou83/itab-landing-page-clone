@@ -14,7 +14,7 @@
         海量组件，免费使用。多种尺寸任意调节，令你的桌面独具一格
       </p>
     </div>
-    <div>
+    <div class="mt-12">
       <ClientOnly>
         <Marquee
           v-for="(item, idx) of list"
@@ -67,7 +67,7 @@ useRefAnimation(swiperSlideInstance, [
 <style scoped>
 img {
   display: inline-block;
-  height: 180px;
+  height: 20vh;
   margin: 10px;
 }
 </style>

@@ -11,7 +11,7 @@
         点击时间快捷切换，沉浸式搜索体验。
       </p>
     </div>
-    <div ref="Image" class="max-w-[960px] text-center mt-[50px]">
+    <div ref="Image" class="max-w-[53vw] text-center mt-12">
       <img src="https://files.codelife.cc/itab.link/simple.webp" alt="" />
     </div>
   </div>
